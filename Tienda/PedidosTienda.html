@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 	<meta charset="utf-8">
+	 	<title>Pedidos Tienda</title>
+	 	<link rel="stylesheet" type="text/css" href="Tienda.css">
+	 </head>
+	 <body>
+	 	<header class="header">
+	 		<img class="logo" src="img/R.png">
+	 		<div class="titulo logo-titulo">
+	 		    <p class="dlogo">Dragon Pop</p>
+	 		    <nav class="Navegacion">
+	 			    <li><a href="InicioTienda.html">Inicio</a></li>
+	 			    <li><a href="QuienessomosTienda.html">Quienes somos</a></li>
+	 			    <li><a href="ProductosTienda.html">Productos</a></li>
+	 			    <li><a href="PedidosTienda.html">Pedidos</a></li>
+	 			    <li><a href="NovedadesTienda.html">Novedades</a></li>
+	 		    </nav>
+	 		</div>
+	 	</header>
+	 	<aside>
+	 		<p>Los mejores Funkos en este enlace:</p>
+	 		<a href="ProductosTienda.html">Dragon Pop</a>
+	    </aside>
+	 	<div class="todo">
+	 		<h1>Formulario cobro revertido</h1>
+	 		<form>
+	 		    <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" size="30" required><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" size="40" required><br>
+                <label for="Contraseña">Contraseña:</label><br>
+                <input type="password" id="Contraseña" name="Contraseña" maxlength="20" size="15" required><br><br>
+                <label for="pago">Metodo de pago: </label>
+                <select id="pago" name="Metodos pago" form="Metodos pago" required>
+                    <option value="Paypal">Paypal</option>
+                    <option value="Tarjeta de credito">Tarjeta de credito</option>
+                    <option value="Pagar en tienda">Pagar en tienda</option>
+                    <option value="Tarjeta prepago">Tarjeta prepago</option>
+                </select><br><br>
+                <label for="Envio a domicilio">Seleccione tipo de envio:</label><br>
+                <input type="radio" id="Envio a domicilio" name="Envio" value="Envio a domicilio" checked>
+                <label for="Envio a domicilio">Envio a domicilio</label><br>
+                <input type="radio" id="Envio a tienda" name="Envio" value="Envio a tienda">
+                <label for="Envio a tienda">Envio a tienda</label><br>
+                <input type="radio" id="Envio express" name="Envio" value="Envio express" required>
+                <label for="Envio express">Envio express</label><br><br>
+                <input type="checkbox" id="Suscrito" name="Suscrito" value="Suscrito" checked>
+                <label for="Suscrito">¿Deseas suscribirte a la pagina?</label><br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" name="Borrar">
+	 		</form>
+	 		<img class="imagenPedidos" align="bottom-right" src="img/Goku like.jpg">
+	 	</div>
+	 	<div>
+	 		<footer>
+                <p>Autor: Raúl Blasco<br>
+                <a href="InicioTienda.html">Dragon Pop</a></p>
+            </footer>
+	 	</div>
+	 </body>
+</html>

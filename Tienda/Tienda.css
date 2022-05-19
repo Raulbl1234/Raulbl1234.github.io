@@ -1,0 +1,201 @@
+body {
+  background-image: url("img/Fondo GV.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: sans-serif ;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.titulo {
+	width: 85%; 
+	margin: 0 auto;
+}
+.header {
+	background-image: url("img/Banner Funko.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	border: 4px solid black;
+	border-radius: 4px;
+	color: black;
+	padding: 5px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+}
+.logo-titulo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dlogo {
+	letter-spacing: 7px;
+	font-size: 20px;
+	font-family:cursive;
+	color: darkorange;
+	background-color: lightgrey;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+.logo {
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    background-color: lightgrey;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.titulo nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.titulo nav li {
+	display: inline-block;
+	margin: 5px;
+}
+.titulo nav li a {
+	display: block;
+	transition: all 0,4s linear;
+	border-radius: 5px;
+	padding: 10px;
+	border: 3px solid black;
+	background-color: lightgrey;
+}
+.titulo nav li a:hover {
+	background-color: skyblue;
+}
+.titulo nav li a:active{
+	background-color: cyan;
+	color: darkorange;
+}
+.todo {
+	margin-top: 220px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: lightgrey;
+	border: 4px solid black;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+form {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	text-align: left;
+	float: left;
+	background-color: skyblue;
+	margin-left: 3%;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+footer{
+	text-align: center;
+	background-color: black;
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
+.presentacion {
+	align-self: center;
+	border: 4px solid black;
+}
+.producto {
+	height: 300px;
+	width: 240px;
+	margin: 2%;
+	border: 4px solid black;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	background-color: skyblue;
+}
+.producto:hover {
+	background-color: cyan;
+}
+.producto:active {
+	color: darkorange;
+}
+.precio {
+	color: black;
+}
+.imgproducto {
+	width: 100%;
+	height: 150px;
+}
+.pagina {
+	border-radius: 100%;
+}
+.imagenPedidos {
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-top: 10%;
+}
+.noticiafunko {
+	padding-bottom: 5%;
+}
+.filaproducto {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+aside {
+  width: 18%;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: skyblue;
+  border: 4px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.inicio_filaproducto {
+	background-color:darkorange;
+	border: 4px solid black;
+	margin-left:10%;
+	margin-right: 10%;
+	border-radius:5px;
+}
+.imgproductosolo {
+	float: left;
+	margin-left:5%;
+	height:500px;
+	border:5px solid black;
+	border-radius: 10px;
+}
+.definicion {
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+}
+.comprar {
+	color:white;
+	background-color: lightgreen;
+	border: 4px solid black;
+	border-radius: 2px;
+	width:40%;
+	margin-top: 2%;
+}
+h1 {
+	margin-top:3%;
+}
+h2 {
+	margin-top:3%;
+}
+.precio2 {
+	margin-top:3%;
+}
+.imgproductos {
+	width: 500px;
+	height: 250px;
+}
